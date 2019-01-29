@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="some description">
+        <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+	<meta property="og:title" content="Hello Example">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="Your URL">
+	<meta property="og:image" content="Your URL">
+	<meta property="og:description" content="Some description">
+	<meta property="article:tag" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+        <meta name="author" content="abresca@vvg.hr">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+	<title>TERMOSTROJ-Kontakt</title>
+	</head>
+	
+<body>
+		<div class="termostroj"></div>
+	<ul id="nav">
+			
+	    <li><a href="index.html">Proizvodi</a></li>
+		<li><a href="Servisi.html">Servisi</a></li>
+		<li><a href="Kontakt.html">Kontakt</a></li>
+		<li><a href="onama.html">O nama</a></li>
+	</ul>
+	<main>
+		<h1>Lokacija</h1>
+		<p><b>Termostroj d.o.o.</b>Franje Puškarića 1d</p>
+		<p>10250 Lučko</p>
+		<p>Hrvatska</p>
+		<h1>Kontakt podaci</h1>
+		<p>Telefon: +385 1 6531008, 6531015</p>
+		<p>Telefaks: +385 1 6531016</p>
+		<p>Općeniti upiti i tehnička pitanja: info@termostroj.com</p>
+		<p>Prodaja: prodaja@termostroj.com</p>
+		
+		<h1>Kontaktirajte nas</h1>
+		<div id="kontakt">
+			<form name="dojam" action="php\script.php" method="POST">
+				<label for="fname">Ime: *</label>
+				<input type="text" id="kname" name="ime" placeholder="Vaše ime..." required>
+				<label for="lname">Prezime *</label>
+				<input type="text" id="prez" name="prezime" placeholder="Vaše prezime..." required>
+				<label for="lname">E-mail adresa *</label>
+				<input type="email" id="email" name="email" placeholder="Vaš e-mail.." required>
+				<label for="subject">Napomena:</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				<input type="submit" value="Pošalji">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; Copyright 2019 Andrej Brescanovic <a href="https://github.com/AndrejBresca"><img src="img/GitHub-Mark-Light-32px.png" title="Github" alt="Github" style="background-color: black"></a></p>
+	</footer>
+</body>
+</html>
